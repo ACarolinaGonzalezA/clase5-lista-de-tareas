@@ -24,6 +24,7 @@ function App() {
       <TaskButton task="Clase DH" onAddTask={addTask} />
       <TaskButton task="Lectura y Desacanso" onAddTask={addTask} />
       <TaskList tasks={tasks} />
+      
     </>
   )
 }
